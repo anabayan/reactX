@@ -1,0 +1,14 @@
+{
+  "name": "reactx",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "install": "npx lerna bootstrap --hoist",
+    "clean": "npx lerna run clean && rm -rf node_modules",
+    "test": "npx lerna run test",
+    "build": "npx lerna run build",
+    "start-web": "npx lerna run --scope @cncy/web start"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@cncy/core",
+  "private": "true",
+  "version": "0.0.0",
+  "description": "Core package with store and business logic",
+  "license": "ISC",
+  "author": "ak",
+  "main": "index.js",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.0",
+    "@types/react-redux": "^7.1.16",
+    "react-redux": "^7.2.4"
+  }
+}
